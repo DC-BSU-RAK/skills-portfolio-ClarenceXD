@@ -161,7 +161,7 @@ def edit():
         em1.place(anchor=NW,x=275,y=275)
 
         change_btn=Button(pop_window,font=fonts_entry,text="Update Student Info",command=lambda:edit_one_student())
-        change_btn.place(anchor=N,x=250,y=300)
+        change_btn.place(anchor=N,x=250,y=320)
 
 
                 
