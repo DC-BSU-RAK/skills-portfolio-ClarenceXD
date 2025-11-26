@@ -180,6 +180,8 @@ def edit_one_student():
 
     for y in student_list:
         if y["code"] == new_code:
+            if new_code == stored:
+                break
             messagebox.showerror("Code Error", "Please Enter A Appropriate Code.")
             return
 
